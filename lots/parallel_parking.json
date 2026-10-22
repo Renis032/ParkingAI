@@ -1,0 +1,123 @@
+{
+ "name": "parallel_parking",
+ "width": 42.0,
+ "height": 20.0,
+ "slots": [
+  {
+   "x": 7.0,
+   "y": 17.4,
+   "angle": 0.0,
+   "length": 6.5,
+   "width": 2.6,
+   "target": false
+  },
+  {
+   "x": 14.0,
+   "y": 17.4,
+   "angle": 0.0,
+   "length": 6.5,
+   "width": 2.6,
+   "target": false
+  },
+  {
+   "x": 21.0,
+   "y": 17.4,
+   "angle": 0.0,
+   "length": 6.5,
+   "width": 2.6,
+   "target": true
+  },
+  {
+   "x": 28.0,
+   "y": 17.4,
+   "angle": 0.0,
+   "length": 6.5,
+   "width": 2.6,
+   "target": false
+  },
+  {
+   "x": 35.0,
+   "y": 17.4,
+   "angle": 0.0,
+   "length": 6.5,
+   "width": 2.6,
+   "target": false
+  }
+ ],
+ "parked_cars": [
+  {
+   "x": 6.8,
+   "y": 17.45,
+   "angle": -0.03,
+   "length": 4.5,
+   "width": 1.9,
+   "color": [
+    178,
+    64,
+    64
+   ]
+  },
+  {
+   "x": 14.2,
+   "y": 17.45,
+   "angle": 0.03,
+   "length": 4.5,
+   "width": 1.9,
+   "color": [
+    64,
+    120,
+    178
+   ]
+  },
+  {
+   "x": 28.2,
+   "y": 17.45,
+   "angle": 0.03,
+   "length": 4.5,
+   "width": 1.9,
+   "color": [
+    200,
+    170,
+    60
+   ]
+  },
+  {
+   "x": 34.8,
+   "y": 17.45,
+   "angle": -0.03,
+   "length": 4.5,
+   "width": 1.9,
+   "color": [
+    140,
+    90,
+    170
+   ]
+  }
+ ],
+ "obstacles": [
+  {
+   "x": 21.0,
+   "y": 3.0,
+   "angle": 0.0,
+   "length": 30.0,
+   "width": 0.8
+  }
+ ],
+ "spawns": [
+  {
+   "x": 5.0,
+   "y": 11.0,
+   "angle": 0.0,
+   "jitter_pos": 1.5,
+   "jitter_angle": 0.3
+  },
+  {
+   "x": 37.0,
+   "y": 11.0,
+   "angle": 3.141592653589793,
+   "jitter_pos": 1.5,
+   "jitter_angle": 0.3
+  }
+ ],
+ "moving": []
+}
