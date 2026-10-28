@@ -2,6 +2,23 @@
 
 A top-down parking lot where a reinforcement-learning agent learns to park a car. You build the lot (slots, parked cars, obstacles, spawn points, moving cars and pedestrians with their own paths) and watch the AI learn. You can see what it senses, which actions it is considering, how it values each situation, how it is rewarded and how its learning curves develop.
 
+## Screenshots
+
+![TRAIN mode: 16 cars learn in parallel; the inspector shows action probabilities, reward breakdown, sensors and network activations, with learning curves below](docs/screenshots/train.png)
+*TRAIN: car 0 of 16 parallel learners heading for the target slot, with the AI inspector on the right and the reward curves at the bottom.*
+
+![WATCH mode: the trained policy has parked the car](docs/screenshots/watch-parked.png)
+*WATCH: the trained policy drives on its own and parks (100% inside, 0.8° angle error).*
+
+![Value map and policy arrows over the lot](docs/screenshots/value-map.png)
+*Value map (V) and policy arrows (P): how good each spot looks at the current heading, and which way the agent would drive from there.*
+
+![BUILD mode lot editor with a parked car selected](docs/screenshots/build.png)
+*BUILD: the lot editor with its tools (slot, parked car, obstacle, spawn, moving car, pedestrian) and a selected parked car.*
+
+![busy_lot.json with a moving car and a pedestrian path, and the Learning chart tab](docs/screenshots/busy-lot-learning.png)
+*`busy_lot.json`: a moving car and a pedestrian on their paths, ghost cars (G) showing all learners, and the Learning tab (losses, entropy, KL, explained variance).*
+
 ## Run
 
 ```bash
